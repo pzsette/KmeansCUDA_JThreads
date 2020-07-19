@@ -31,6 +31,7 @@ int main(int argc, char** argv)
 	parallelKmeans(p, c);
 
 
+	//Save points label in "output.txt" file
 	/*FILE *output;
 	int i;
 	output = fopen("output.txt", "w");
