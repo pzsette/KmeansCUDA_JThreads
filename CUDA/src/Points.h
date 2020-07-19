@@ -41,7 +41,7 @@ struct PointsSet {
 	}
 
 	void displayPoints() {
-		printf("printo d_points");
+		printf("Points:");
 		for(int i=0; i<size; i++) {
 			printf("\nx[%d] = %f ; y[%d] = %f ; labels[%d] = %d\n", i, x[i], i, y[i], i, labels[i]);
 		}
